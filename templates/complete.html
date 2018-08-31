@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete</title>
+
+    <style>
+    body {background-color: lightgrey; text-align: center; border: 5px solid royalblue; padding: 30px; font-family: verdana;}
+    h1   {color: blue;}
+    </style>
+</head>
+<body>
+File uploaded<br><br>
+<img src="{{ url_for('static',filename=image_output) }} style="width="1000px";height="1000px;">
+</body>
+</html>
